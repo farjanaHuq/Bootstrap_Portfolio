@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--The name of the html that will appear in the browser tab.-->
+    <title>Portfolio</title>
+    
+    <!--The link is for Bootstrap.--->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--This link connect to the path of portfolio.css file.-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--This link is to integrate the "Font Awesome" style to css.-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+
+    <!--This link is to ingtegrate the google font "Roboto" to the built in css font family.-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Css code to introduce Roboto font family.-->
+        <style>
+                .roboto {
+                    font-family: 'Roboto', sans-serif;
+                }
+        </style>
+</head>
+<!---The header section contains Name, Contact, Portfolio and About.-->
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col-md-6" style="margin-left:250px">
+            <a class="navbar-brand" href="#">Farjana Huq</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="col-md-6">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+<!---The section is the container, combined with 2 columns and 3 rows.-->
+    <div class="container">
+
+        <div class="content">
+            
+            <!--This section is for the header Portfolio.-->
+            <section>
+                <h1 id="h1">Portfolio</h1>
+            </section>
+            <!--The table below has 3 columns and 2 rows.-->
+            <table id="columns">
+                <!--Row 1-->
+                <tr id="row1">
+                    <td>
+                        <img id="img1" src="assets/images/city.jpg" alt="Cities/lands">
+                        <div id="text1" style="position:relative; bottom: 40px; ">
+                            Cities/Lands
+                        </div>
+
+                    </td>
+                    <td>
+                        <img id="img2" src="assets/images/coast.jpg" alt="Coastal Region">
+                        <div id="text2" style="position:relative; bottom: 40px ; left:10px ;">
+                            Costal Region
+                        </div>
+
+                    </td>
+                </tr>
+                <!--Row 2-->
+                <tr id="row2">
+                    <td>
+                        <img id="img3" src="assets/images/face.jpg" alt="Faces">
+                        <div id="text3" style="position:relative; bottom: 40px ;">
+                            Faces
+                        </div>
+
+                    </td>
+                    <td>
+                        <img id="img4" src="assets/images/Maternity.jpg" alt="Maternity">
+                        <div id="text4" style="position:relative; bottom:40px; left:10px;">
+                            Maternity
+                        </div>
+
+                    </td>
+                </tr>
+                <!--Row 1-->
+                <tr id="row3">
+                    <td>
+                        <img id="img5" src="assets/images/nightadventure.jpg" alt="Night Adventure">
+                        <div id="text5" style="position:relative; bottom:40px ;">
+                            Night Adventure
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        copyright&COPY;
+    </div>
+
+</body>
+
+</html>
