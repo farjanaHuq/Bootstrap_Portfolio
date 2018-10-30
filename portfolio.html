@@ -8,7 +8,7 @@
 
     <!--The name of the html that will appear in the browser tab.-->
     <title>Portfolio</title>
-    
+
     <!--The link is for Bootstrap.--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--This link connect to the path of portfolio.css file.-->
@@ -21,13 +21,14 @@
     <!--This link is to ingtegrate the google font "Roboto" to the built in css font family.-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--Css code to introduce Roboto font family.-->
-        <style>
-                .roboto {
+    <style>
+        .roboto {
                     font-family: 'Roboto', sans-serif;
                 }
         </style>
 </head>
 <!---The header section contains Name, Contact, Portfolio and About.-->
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="col-md-6" style="margin-left:250px">
@@ -50,67 +51,74 @@
 
     </nav>
 
-<!---The section is the container, combined with 2 columns and 3 rows.-->
-    <div class="container">
+    <!---The section is the container, combined with 2 columns and 3 rows.-->
+    <div class="container-portfolio ">
 
-        <div class="content">
-            
+        <div class="content-portfolio">
+
             <!--This section is for the header Portfolio.-->
             <section>
                 <h1 id="h1">Portfolio</h1>
             </section>
-            <!--The table below has 3 columns and 2 rows.-->
-            <table id="columns">
-                <!--Row 1-->
-                <tr id="row1">
-                    <td>
-                        <img id="img1" src="assets/images/city.jpg" alt="Cities/lands">
-                        <div id="text1" style="position:relative; bottom: 40px; ">
-                            Cities/Lands
-                        </div>
+            <!--Row 1-->
+            <div class="row">
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                    <a class="content-portfolio portfolio-img-container" href="">
+                        <img id="img-fluid" src="assets/images/city.jpg" alt="Cities/lands" width="274px" height="206px">
 
-                    </td>
-                    <td>
-                        <img id="img2" src="assets/images/coast.jpg" alt="Coastal Region">
-                        <div id="text2" style="position:relative; bottom: 40px ; left:10px ;">
-                            Costal Region
+                        <div class="container-fluid text-block">
+                            <span class="align-middle banner-text">Cities/Lands</span>
                         </div>
+                    </a>
+                </div>
 
-                    </td>
-                </tr>
-                <!--Row 2-->
-                <tr id="row2">
-                    <td>
-                        <img id="img3" src="assets/images/face.jpg" alt="Faces">
-                        <div id="text3" style="position:relative; bottom: 40px ;">
-                            Faces
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                    <a class="content-portfolio portfolio-img-container" href="">
+                        <img id="img-fluid" src="assets/images/coast.jpg" alt="Coastal Region" width="274px" height="206px">
+                        <div class="container-fluid text-block">
+                            <span class="align-middle banner-text">Costal Region</span>
                         </div>
+                    </a>
+                </div>
+            </div>
 
-                    </td>
-                    <td>
-                        <img id="img4" src="assets/images/Maternity.jpg" alt="Maternity">
-                        <div id="text4" style="position:relative; bottom:40px; left:10px;">
-                            Maternity
+            <!--Row 2-->
+            <div class="row">
+                <div class="column col-sm-6 col-md-12 col-lg-6">
+                    <a class="content-portfolio portfolio-img-container" href="">
+                        <img id="img-fluid" src="assets/images/face.jpg" alt="Faces" width="274px" height="206px">
+                        <div class="container-fluid text-block">
+                                <span class="align-middle banner-text">Faces</span>
+                       </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                    <a class="content-portfolio portfolio-img-container" href="">
+                        <img id="img-fluid" src="assets/images/Maternity.jpg" alt="Maternity" width="274px" height="206px">
+                        <div class="container-fluid text-block">
+                                <span class="align-middle banner-text">Maternity</span>
+                       </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--Row 3-->
+            <div class="row">
+                <div class="col-sm-6 col-md-12 col-lg-6">
+                    <a class="content-portfolio portfolio-img-container" href="">
+                        <img id="img-fluid" src="assets/images/nightadventure.jpg" alt="Night Adventure" width="274px"
+                            height="206px">
+                        <div class="container-fluid text-block">
+                                    <span class="align-middle banner-text"> Night Adventure</span>
                         </div>
-
-                    </td>
-                </tr>
-                <!--Row 1-->
-                <tr id="row3">
-                    <td>
-                        <img id="img5" src="assets/images/nightadventure.jpg" alt="Night Adventure">
-                        <div id="text5" style="position:relative; bottom:40px ;">
-                            Night Adventure
-                        </div>
-
-                    </td>
-                </tr>
-            </table>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <!--Footer-->
     <div class="footer">
-        copyright&COPY;
+        copyright&copy;
     </div>
 
 </body>
