@@ -11,7 +11,7 @@
     <!---Bootsrap style sheet.-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!---The link is for css style sheet.-->
-    <link rel="stylesheet" href="./assets/css/style.css" media=screen>
+    <link rel="stylesheet" href="./assets/css/styles.css" media=screen>
     <!--Navbar link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!--The link is to introduce "Roboto" font family.-->
@@ -28,7 +28,7 @@
     </style>
     <!--Style code to rotate image.-->
     <style>
-        #bio-image {
+        .img-fluid {
             transform: rotate(90deg)
         }
     </style>
@@ -38,8 +38,8 @@
 
     <!--Header--->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="col-md-6" style="margin-left:250px">
-            <a class="navbar-brand" href="#">Farjana Huq</a>
+        <div class="col-md-6" style="margin-left:100px">
+            <a class="profileName" href="index.html">Farjana Huq</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,22 +55,20 @@
                 </div>
             </div>
         </div>
-
     </nav>
+
     <!--Disappears margin between the header and the content.--->
     <div class="desktop-margin d-none d-md-block"></div>
+
     <!--Container--->
     <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2">
+                <img src="./assets/images/Farjana.JPG" alt="" class="img-fluid float-left mr-2 pb-0 bg-light" style="height:auto; width:37%;">
 
-        <div class="content">
-            <h1 id="h1">About Me</h1>
 
-            <section id="main-bio">
-                <img id="bio-image" src="./assets/images/Farjana.JPG" target="_blank">
-            </section>
 
-            <section id="bio">
-                <p id="p1">
+                <p class="">
                     The first camera I bought when I was a sophomore, that was a Sony point shoot camera. I mostly
                     used
                     to take photos of my friends, kids and nature at that time in Bangladesh. The first DSLR camera
@@ -81,39 +79,39 @@
                     But I slowly started learning about photography right after my first child was born on 2014.
                     Currently
                     I am playing with Canon 6D, 50 mm f 1.4 lens, and I love it.</p>
-                <p>
-                    The book that I admired most about photography is “How to photograph almost everything” by Tom
-                    Ang.
-                    This is a very good book where almost everything about photography is described very precisely
-                    and
-                    clearly. However, I love the work of Steve McCurry, and Art Wolfe. I take Dave’s class on
-                    photography,
-                    it’s a room full of a wonderful teacher, and so many beautiful people! Currently I am a stay at
-                    home mom,
-                    so I took the photography class to give myself a room to keep something that I love. Dave’s
-                    class
-                    has just opened my door.
-                </p>
 
-                <p>
-                    I find the most alluring thing about photography is the art of capturing a simple object
-                    extraordinarily. To me the most challenging part about photography is finding the correct light
-                    and
-                    perspective in a photo. The other challenge I feel when I take photos of kids, since they
-                    aren’t
-                    always willing to take photos. But I always like to capture them as they are. I love all their
-                    actions. I
-                    love to take photos of kids.
+                The book that I admired most about photography is “How to photograph almost everything” by Tom
+                Ang.
+                This is a very good book where almost everything about photography is described very precisely
+                and
+                clearly. However, I love the work of Steve McCurry, and Art Wolfe. I take Dave’s class on
+                photography,
+                it’s a room full of a wonderful teacher, and so many beautiful people! Currently I am a stay at
+                home mom,
+                so I took the photography class to give myself a room to keep something that I love. Dave’s
+                class
+                has just opened my door.
+
+
+
+                I find the most alluring thing about photography is the art of capturing a simple object
+                extraordinarily. To me the most challenging part about photography is finding the correct light
+                and
+                perspective in a photo. The other challenge I feel when I take photos of kids, since they
+                aren’t
+                always willing to take photos. But I always like to capture them as they are. I love all their
+                actions. I
+                love to take photos of kids.
                 </p>
-            </section>
+            </div>
 
         </div>
     </div>
 
-    </nav>
     <!--Disappears margin between the header and the content.--->
     <div class="desktop-margin d-none d-md-block"></div>
-    <footer class="footer">
+
+    <footer class="footer" >
         copyright&copy;
     </footer>
 
