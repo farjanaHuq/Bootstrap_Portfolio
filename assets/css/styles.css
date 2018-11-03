@@ -77,19 +77,19 @@ input[type=submit]{
     background-color:rgb(32, 204, 204);
 }
 /* ---Portfolio.html--- */
-.content-portfolio{
+/*
+.portfolio{
     position:relative;
     left: 15%;
     right: 14%;
     width: 66%;
     height: 80%;
-    border: 1px solid #dddddd;
     background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 100%;
     margin-top: 30px;
+    display: flex;
 }
-
+*/
 .portfolio-img-container {
     margin-bottom: 20px;
     position: relative; 
