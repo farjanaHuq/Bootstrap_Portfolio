@@ -1,10 +1,14 @@
 .box{
     box-sizing: border-box;
     text-align: center;   
-    background: url("../images/concrete_seamless.png");
+    
 }
 .container{
+    width: 65%;
+    height: auto;
     display: flex;
+    background: url("../images/concrete_seamless.png");
+    margin-left: 130px;
 }
 .profileName{
     background-color: teal;
@@ -22,16 +26,14 @@
     margin-right: 20px;
 }
 /* <!----styling contact.html ----->*/
-.content{   
-    width: 960px;
-    height: 420px;
+.contact{     
+    width: 50%;
+    height: 250%;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px; 
-    margin-left: 80px;
-    margin-bottom: 533px;
     line-height: 100%;
+    margin-top: 30px;
 }
 
 #h1{
@@ -41,17 +43,17 @@
     border-bottom: #cccccc solid 0.5px;
     margin: 20px;
 }
-
 input[type=text], select {
-    width: 450px;
+    width: 85%;
     padding: 12px 20px;
-    margin: 8px 15px;
+    margin: 15px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
-.btnbtn-primary{
+
+input[type=submit]{
     background-color: teal;
     width: 80px;
     height: 30px;  
@@ -74,6 +76,48 @@ input[type=text], select {
 .btnbtn-primary:active{
     background-color:rgb(32, 204, 204);
 }
+/* ---Portfolio.html--- */
+.content-portfolio{
+    position:relative;
+    left: 15%;
+    right: 14%;
+    width: 66%;
+    height: 80%;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100%;
+    margin-top: 30px;
+}
+
+.portfolio-img-container {
+    margin-bottom: 20px;
+    position: relative; 
+    display: block;
+    max-width: 200px;
+    height: auto; 
+    padding: 0;
+}
+.portfolio-img-container img.fluid {
+    position: absolute; 
+    height: auto;
+}
+.text-block {
+    position: absolute; 
+    bottom: 12px; 
+    background-color: #4aaaa582;
+    color: #ffffff;
+    width: 100%;
+    /*max-width: 200px; */
+    
+    text-align: center;
+    display: flex; 
+    height: 30px;
+}
+.banner-text {
+    text-overflow: ellipsis;
+    }
+
 /* ---Footer--- */
 .footer{    
     max-width: 100%;
