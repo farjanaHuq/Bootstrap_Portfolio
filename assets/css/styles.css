@@ -94,23 +94,23 @@ input[type=submit]{
     margin-bottom: 20px;
     position: relative; 
     display: block;
-    max-width: 200px;
-    height: auto; 
+    width: 200px;
+    height: 200px; 
     padding: 0;
 }
-.portfolio-img-container img.fluid {
+.img.fluid {
     position: absolute; 
     height: auto;
 }
 .text-block {
     position: absolute; 
     bottom: 12px; 
-    background-color: #4aaaa582;
+    background-color: #4aaaa5;
     color: #ffffff;
     width: 100%;
     /*max-width: 200px; */
-    
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     display: flex; 
     height: 30px;
 }
