@@ -1,13 +1,23 @@
 .box{
     box-sizing: border-box;
     text-align: center;   
+    background-color: #cccccc;
     
 }
-.container{
-    width: 65%;
-    height: auto;
+.body{
+    background-color: transparent !important;
+}
+.body,html{
     display: flex;
-    background: url("../images/concrete_seamless.png");
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url("../images/concrete_seamless.png");
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;  
     margin-left: 130px;
 }
 .profileName{
@@ -17,13 +27,14 @@
     padding: 20px 20px 20px 20px ;
     margin-left:0;
     color: #ffffff;
-   font-size: 20px;   
+    font-size: 20px;   
+    margin-left: 16px;
 }
 .img-fluid{
-    height:50%;
-    width: 100%;
+    
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 5px:
 }
 /* <!----styling contact.html ----->*/
 .contact{     
@@ -77,24 +88,23 @@ input[type=submit]{
     background-color:rgb(32, 204, 204);
 }
 /* ---Portfolio.html--- */
-/*
+
 .portfolio{
-    position:relative;
-    left: 15%;
-    right: 14%;
-    width: 66%;
-    height: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 95%;
     background-color: #ffffff;
     line-height: 100%;
     margin-top: 30px;
-    display: flex;
+    margin-bottom: 30px;
+  
 }
-*/
 .portfolio-img-container {
     margin-bottom: 20px;
     position: relative; 
     display: block;
-    width: 200px;
+    max-width: 200px;
     height: 200px; 
     padding: 0;
 }
